@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Selamat Ulang Tahun, Plincesku</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="view on c" id="intro">
+  <div class="intro">
+    <h1>Untuk Plincesku</h1>
+    <p>Diana Rahmayanti</p>
+    <div class="env" id="env" role="button" tabindex="0" aria-label="Buka amplop"><div class="flap"></div><div class="note">♥</div></div>
+    <p class="hint">Ketuk amplopnya</p>
+  </div>
+</div>
+
+<div class="view c" id="menu">
+  <h2>Choose the Surprise</h2>
+  <div class="tiles">
+    <button class="tile" data-go="journey"><span class="ic">📷</span><span class="lb">Journey</span></button>
+    <button class="tile" data-go="moment"><span class="ic">⏱️</span><span class="lb">Moment</span></button>
+    <button class="tile" data-go="playlist"><span class="ic">💿</span><span class="lb">Playlist</span></button>
+    <button class="tile" data-go="gift"><span class="ic">🎁</span><span class="lb">Gift</span></button>
+  </div>
+</div>
+
+<div class="view" id="journey">
+  <button class="back" data-go="menu">Kembali</button>
+  <h2>Perjalanan Kita</h2>
+  <div class="tl">
+    <div><em>Pertama kali bertemu</em>Di gym, tahun 2023. Aku nggak ekspek kamu secantik itu.</div>
+    <div><em>Hari kita resmi jadian</em>10 November 2023. Waktu yang sangat membahagiakan untukku.</div>
+    <div><em>Liburan pertama kita</em>Ke Trans Studio dan Wahoo. Momen paling seru, pertama kalinya aku liburan bareng kamu.</div>
+    <div><em>Hari ini</em>Dan aku masih memilihmu setiap hari, dan sampai kapan pun. Sayangku 😘😘😘</div>
+  </div>
+  <div class="frames">
+    <div class="fr has"><img alt="Foto pertama kita" src="foto/foto-01.jpg"><span class="cap">Foto pertama kita</span></div>
+    <div class="fr has"><img style="object-position:center 62%" alt="Waktu kita jadian" src="foto/foto-02.jpg"><span class="cap">Waktu kita jadian</span></div>
+    <div class="fr has"><img alt="Liburan bareng" src="foto/foto-03.jpg"><span class="cap">Liburan bareng</span></div>
+    <div class="fr has"><img alt="Senyum favoritku" src="foto/foto-04.jpg"><span class="cap">Senyum favoritku</span></div>
+  </div>
+</div>
+
+<div class="view c" id="moment">
+  <button class="back" data-go="menu">Kembali</button>
+  <h2>Menuju Harimu</h2>
+  <div class="count" id="count"></div>
+  <p id="cdnote"></p>
+  <svg class="cake" id="cake" viewBox="0 0 200 190" role="button" tabindex="0" aria-label="Kue ulang tahun, ketuk untuk meniup lilin">
+    <ellipse cx="100" cy="176" rx="90" ry="9" fill="rgba(184,69,111,.2)"/>
+    <rect x="25" y="120" width="150" height="52" rx="12" fill="#e4799b"/>
+    <rect x="50" y="84" width="100" height="40" rx="10" fill="#f7c5d5"/>
+    <path d="M25 134q15 14 30 0t30 0 30 0 30 0 30 0" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#fff"><rect x="72" y="58" width="8" height="28" rx="3"/><rect x="96" y="58" width="8" height="28" rx="3"/><rect x="120" y="58" width="8" height="28" rx="3"/></g>
+    <g fill="#ffb84d"><ellipse class="flame" cx="76" cy="46" rx="6" ry="11"/><ellipse class="flame" cx="100" cy="46" rx="6" ry="11"/><ellipse class="flame" cx="124" cy="46" rx="6" ry="11"/></g>
+  </svg>
+  <p id="wish" aria-live="polite"></p>
+  <button class="btn" id="blow" type="button">Tiup lilinnya</button>
+  <div class="mgal" id="mgal"></div>
+  <div id="extra" hidden>
+<div class="mx"><img alt="Momen kita 1" src="foto/foto-05.jpg"></div>
+<div class="mx"><img alt="Momen kita 2" src="foto/foto-06.jpg"></div>
+<div class="mx"><img alt="Momen kita 3" src="foto/foto-07.jpg"></div>
+<div class="mx"><img alt="Momen kita 4" src="foto/foto-08.jpg"></div>
+<div class="mx"><img alt="Momen kita 5" src="foto/foto-09.jpg"></div>
+<div class="mx"><img alt="Momen kita 6" src="foto/foto-10.jpg"></div>
+<div class="mx"><img alt="Momen kita 7" src="foto/foto-11.jpg"></div>
+<div class="mx"><img alt="Momen kita 8" src="foto/foto-12.jpg"></div>
+<div class="mx"><img alt="Momen kita 9" src="foto/foto-13.jpg"></div>
+<div class="mx"><img alt="Momen kita 10" src="foto/foto-14.jpg"></div>
+<div class="mx"><img alt="Momen kita 11" src="foto/foto-15.jpg"></div>
+<div class="mx"><img alt="Momen kita 12" src="foto/foto-16.jpg"></div>
+<div class="mx"><img alt="Momen kita 13" src="foto/foto-17.jpg"></div>
+<div class="mx"><img alt="Momen kita 14" src="foto/foto-18.jpg"></div>
+<div class="mx"><img alt="Momen kita 15" src="foto/foto-19.jpg"></div>
+<div class="mx"><img alt="Momen kita 16" src="foto/foto-20.jpg"></div>
+<div class="mx"><img alt="Momen kita 17" src="foto/foto-21.jpg"></div>
+<div class="mx"><img alt="Momen kita 18" src="foto/foto-22.jpg"></div>
+<div class="mx"><img alt="Momen kita 19" src="foto/foto-23.jpg"></div>
+</div>
+</div>
+
+<div class="view c" id="playlist">
+  <button class="back" data-go="menu">Kembali</button>
+  <h2>Playlist Kita</h2>
+  <div class="vinyl" id="vinyl" aria-hidden="true"><img id="vlabel" alt=""></div>
+  <ul class="songs" style="text-align:left">
+    <li data-song="bgm" tabindex="0" role="button"><b>Fall in Love With You</b>Montell Fish. Lagu yang menemani halaman ini. Ketuk untuk memutar.</li>
+    <li data-song="trk2" tabindex="0" role="button"><b>Sempurna</b>Andra and The Backbone. Lagu yang menggambarkan kamu. Ketuk untuk memutar.</li>
+    <li data-song="trk" tabindex="0" role="button"><b>Sampai Jadi Debu</b>Banda Neira ft. Gardika Gigih. Lagu yang mewakili kita. Ketuk untuk memutar.</li>
+  </ul>
+</div>
+
+<div class="view c" id="gift">
+  <button class="back" data-go="menu" style="float:left">Kembali</button>
+  <h2 style="clear:both">Hadiah Untukmu</h2>
+  <button class="gb" id="gb" type="button" aria-label="Buka kado">🎁</button>
+  <p class="hint" id="gh">Ketuk kadonya</p>
+  <div class="paper" id="letter">
+    <p>happy birthday, sayangkuuu 🤍🎂❤️</p>
+    <p>SELAMAATTT ULANGTAHUNN CAYANGKUUU😍😘😍🤍. semogaa di umur kamu yang sekarang, kamu selalu dikasih kesehatan, kebahagiaan, dilancarkan semua urusannya, dan semua yang kamu impikan bisa terwujud satu per satu. aku harap dunia selalu baik sama kamu, dan kalau suatu saat dunia terasa berat buat kamu, semoga kamu selalu inget kalau ada aku yang akan selalu berusaha nemenin kamu cintakuuww😘😘.</p>
+    <p>Gaa kerasa yaa, kita udaa 3 taun barenggg. selama inii udah banyak banget cerita yang kita lewatin, banyak tawa, banyak bahagia, mungkin juga banyak sedih dan berantemnya, tapi dari semua hal yang kita lewatin, aku selalu bersyukur karena sampai sekarang aku masih samaa kamuu sayaangku😘😘</p>
+    <p>aku masih inget pertama kali ketemu pertama kali juga kita motorann, rasanya nyaman banget bisa jalan bareng kamu waktuu ituu, tauu kaloo kamu ada di belakang aku, meluk aku dan kita bisa nikmatin perjalanan itu berdua, dari situ aku sadar, ternyata bahagia nggak harus selalu tentang hal besar atau sesuatu yang mahal, terkadang, cukup motorann bareng kamu, ngobrol tentang hal random, dan ngerasain kamu ada di samping aku aja udah lebih dari cukup.</p>
+    <p>makasih yaa sayanggg udaa hadir di hidup aku selama ini, makasih udah bertahan sama aku, udah nemenin aku tumbuh, dan udah jadi bagian dari banyak cerita dalam hidup aku. maaf kalau selama ini aku masih sering bikin kamu kesel, sedih, kecewa, atau belum bisa jadi pasangan yang sempurna buat kamu, aku masih banyak kurangnya, tapi aku mau terus belajar jadi lebih baik, bukan cuma buat diri aku sendiri, tapi juga buat hubungan kita.</p>
+    <p>di hari ulang tahun kamu ini, aku berharap kamu bahagiaaa terusss. aku pengen lihat kamu meraih semua impian kamu, tumbuh jadi versi terbaik dari diri kamu, dan selalu punya alasan buat tersenyum. aku juga berharap semoga aku selaluuu jadi orang yang bisa kamu cari saat kamu capek, orang yang bisa kamu peluk saat kamu sedih, dan orang yang tetap kamu pilih meskipun kita udah melewati banyak hal🥹🥹</p>
+    <p>semoga kedepanyaa, kita masih bisa motoran bareng, kamu masih meluk aku erat dari belakang, dan kita masih bisa ketawa bareng tanpa harus mikirin kapan semuanya bakal berakhir, dan akuu gamaau itu terjadii, aku nggak tahu perjalanan kita ke depannya bakal seperti apa, tapi aku berharap kita bisa terus saling memilih, saling memahami, dan saling menjagaaa😘😘</p>
+    <p>happy birthday, my favorite personn, my princesss, my lovvveee, my futuree wifeee❤️❤️❤️, makasih udah jadi bagian paling indah dari perjalanan aku selama 3 tahun ini, semoga kitaa selaluu merayakann nyaa bersamaa seterusnyaaa yaa sayanggg😘😘</p>
+    <p><strong>ILOVVEEEUU MORE THAN YOU KNOW BABEE❤️❤️❤️❤️</strong></p>
+  </div>
+  <div class="reason" id="reason">Ketuk tombol di bawah, satu per satu.</div>
+  <button class="btn" id="nextR" type="button" style="display:none">Alasan pertama</button>
+</div>
+
+<audio id="bgm" loop preload="auto" src="musik/bgm.mp3"></audio>
+<audio id="trk2" loop preload="none" src="musik/trk2.mp3"></audio>
+<audio id="trk3" loop preload="none" src="musik/trk3.mp3"></audio>
+<button class="mu" id="mu" type="button" aria-label="Putar atau jeda musik" hidden>🔊</button>
+<div id="lb" role="dialog" aria-label="Foto"><img alt=""></div>
+
+<script src="script.js"></script>
+</body>
+</html>
